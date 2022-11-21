@@ -20,6 +20,7 @@ Concatenar archivos y correr BLAST con la opción de `prot` porque son Pangenoma
 `mkdir database`
 
 `makeblastdb -in ~/blast_Nebraskensis/data/all-genomes.faa -dbtype prot -out ~/blast_Nebraskensis/database/all-genomes`
+
 Correr `blastp` con cada uno de los archivos
 
 `nohup blastp -query ~/blast_Nebraskensis/data/31963.56.faa -db ~/blast_Nebraskensis/database/all-genomes -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" > ~/blast_Nebraskensis/output-blast/31963.56.blast &`
@@ -76,4 +77,12 @@ Scrip en Gudhi para crear la filtración de simplejos y analizar su persistencia
 Se detectan las mismas familias con TDA que con get_homologues y se puede determinar su persistencia y confianza.
 
 
+---
+# Equipo
 
+- José María Ibarra Rodríguez
+- Adriana Haydeé Contreras Peruyero
+- Fernando Altamirano Fernández
+- Andrea Chávez Heredia
+- Marisol Navarro Miranda
+- Cruz Vargas de León
