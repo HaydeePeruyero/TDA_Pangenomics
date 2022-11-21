@@ -3,9 +3,13 @@
 # Extracción de datos
 
 Subset
-- Clavibacter Michiganensis Nebraskensis 1097677.33
-- Clavibacter Michiganensis Nebraskensis 31963.54
-- Clavibacter Michiganensis Nebraskensis 31963.56
+- Clavibacter Michiganensis Nebraskensis 1097677.33 [link](https://ncbi.nlm.nih.gov/assembly/GCF_000355695.1)
+- Clavibacter Michiganensis Nebraskensis 31963.54 [link](https://ncbi.nlm.nih.gov/assembly/GCF_023279165.1)
+- Clavibacter Michiganensis Nebraskensis 31963.56 [link](https://ncbi.nlm.nih.gov/assembly/GCF_009739635.2)
+
+# Rast
+
+Anotar los genomas en [rast](https://rast.nmpdr.org/rast.cgi?page=Jobs&logout=1) y descargar los archivos .fasta y .gbk.
 
 # Blast
 
@@ -13,17 +17,16 @@ Concatenar archivos y correr BLAST con la opción de `prot` porque son Pangenoma
 
 `cat ~/blast_Nebraskensis/data/*.faa > all-genomes.faa`
 
-`mkdir database
-makeblastdb -in ~/blast_Nebraskensis/data/all-genomes.faa -dbtype prot -out ~/blast_Nebraskensis/database/all-genomes
-`
+`mkdir database`
+
+`makeblastdb -in ~/blast_Nebraskensis/data/all-genomes.faa -dbtype prot -out ~/blast_Nebraskensis/database/all-genomes`
 Correr `blastp` con cada uno de los archivos
 
-`nohup blastp -query ~/blast_Nebraskensis/data/31963.56.faa -db ~/blast_Nebraskensis/database/all-genomes -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" > ~/blast_Nebraskensis/output-blast/31963.56.blast &
+`nohup blastp -query ~/blast_Nebraskensis/data/31963.56.faa -db ~/blast_Nebraskensis/database/all-genomes -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" > ~/blast_Nebraskensis/output-blast/31963.56.blast &`
 
-nohup blastp -query ~/blast_Nebraskensis/data/31963.54.faa -db ~/blast_Nebraskensis/database/all-genomes -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" > ~/blast_Nebraskensis/output-blast/31963.54.blast &
+`nohup blastp -query ~/blast_Nebraskensis/data/31963.54.faa -db ~/blast_Nebraskensis/database/all-genomes -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" > ~/blast_Nebraskensis/output-blast/31963.54.blast &`
 
-nohup blastp -query ~/blast_Nebraskensis/data/1097677.33.faa -db ~/blast_Nebraskensis/database/all-genomes -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" > ~/blast_Nebraskensis/output-blast/1097677.33.blast &
-`
+`nohup blastp -query ~/blast_Nebraskensis/data/1097677.33.faa -db ~/blast_Nebraskensis/database/all-genomes -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" > ~/blast_Nebraskensis/output-blast/1097677.33.blast &`
 
   * qseqid: Query Seq-id
   * sseqid: Subject Seq-id
@@ -62,11 +65,15 @@ Obtener pancore_matrix
 
 # Crear matriz de distancias
 
+Scrip para generar la matriz de distancia usando el output de blast.
+
 # Construir filtración de simplejos
+
+Scrip en Gudhi para crear la filtración de simplejos y analizar su persistencia.
 
 # Resultados
 
-Se detectan las mismas familias que con get_homologues
+Se detectan las mismas familias con TDA que con get_homologues y se puede determinar su persistencia y confianza.
 
 
 
