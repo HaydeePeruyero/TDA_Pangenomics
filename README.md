@@ -76,6 +76,7 @@ Scrip en Gudhi para crear la filtración de simplejos y analizar su persistencia
 
 Se detectan las mismas familias con TDA que con get_homologues y se puede determinar su persistencia y confianza.
 
+![Persistencia de familias](https://drive.google.com/file/d/17LlEtDbE6N34EnQUYpW2jGZTzzlTY0nV/view?usp=sharing)
 
 ---
 # Equipo
