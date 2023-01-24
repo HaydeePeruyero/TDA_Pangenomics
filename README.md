@@ -68,9 +68,17 @@ Obtener pancore_matrix
 
 Scrip para generar la matriz de distancia usando el output de blast.
 
+[Script en R](https://drive.google.com/file/d/1X2EHO6JxKU2biYL65jwu7sTLErOnN_0U/view?usp=sharing)
+
+[Matriz 3 Genomas](https://drive.google.com/file/d/1sf3fnX-rSDy7sqMfx1-dFr0cViweQ15M/view?usp=sharing)
+
+[Matriz 6 Genomas](https://drive.google.com/file/d/1UlrFa4zW2SG25vJNuzuMgNrmM3Dk_Rby/view?usp=sharing)
+
 # Construir filtración de simplejos
 
 Scrip en Gudhi para crear la filtración de simplejos y analizar su persistencia.
+
+[Script en python](https://drive.google.com/file/d/1RKq8ZLbdxICwBUf0lfFJRkuyEvoQGJbL/view?usp=share_link)
 
 # Resultados
 
