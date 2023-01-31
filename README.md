@@ -46,6 +46,12 @@ Concatenar los outputs
 
 `cat ~/blast_Nebraskensis/output-blast/*.blast > all-blast.blast`
 
+[all-blast.blast](https://drive.google.com/file/d/1oWipwiNpgw_iYnwnnctz-vGTbn7cv1Vv/view?usp=share_link)
+
+[all-genomes.blast](https://drive.google.com/file/d/1ywn-prfhKFMiL8FzZfnYFBNLERZNrTXS/view?usp=share_link)
+
+[all-blast_6genomas.blast](https://drive.google.com/file/d/1tVuMD9wBr4wPShjiUOb_dhUiJb3Wel6p/view?usp=share_link)
+
 # Get_homologues
 
 Correrlo con los algoritmos COG y COML
