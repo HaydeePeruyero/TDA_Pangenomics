@@ -92,6 +92,35 @@ Se detectan las mismas familias con TDA que con get_homologues y se puede determ
 
 ![Persistencia de familias](https://github.com/HaydeePeruyero/TDA_Pangenomics/blob/main/images/simplejos_persistencia.png)
 
+# Streptomyces
+
+| ID_Taxonomy | Genero       | Especie        | Subespecie | Sepa                 | Genbank_seq                                                   | Assemby ID      | Rast_id    |
+| ----------- | ------------ | -------------- | ---------- | -------------------- | ------------------------------------------------------------- | --------------- | ---------- |
+| 227882      | Streptomyces | avermitilis    |            | MA-4680 = NBRC 14893 | BA000030.4                                                    | ASM976v2        | 227882.63  |
+| 1901        | Streptomyces | clavuligerus   |            | ATCC 27064           | [CM001015.1](https://www.ncbi.nlm.nih.gov/nuccore/CM001015.1) | GCA_000148465.1 |            |
+| 653045      | Streptomyces | violaceusniger |            | Tu 4113              | [CP002994.1](https://www.ncbi.nlm.nih.gov/nuccore/CP002994.1) | ASM14781v3      | 653045.26  |
+| 132474      | Streptomyces | rimosus        | rimosus    | DV3                  | [CP100443.1](https://www.ncbi.nlm.nih.gov/nuccore/CP100443.1) | ASM2422305v1    | 132474.59  |
+| 100226      | Streptomyces | coelicolor     |            | A3(2)                | [AL645882.2](https://www.ncbi.nlm.nih.gov/nuccore/AL645882.2) | ASM20383v1      | 100226.232 |
+| 1343740     | Streptomyces | rapamycinicus  |            | NRRL 5491            | [CP085193.1](https://www.ncbi.nlm.nih.gov/nuccore/CP085193.1) | ASM2429896v1    | 1343740.3  |
+| 1901        | Streptomyces | clavuligerus   |            | F1D7                 | [CP065253.1](https://www.ncbi.nlm.nih.gov/nuccore/CP065253.1) | ASM1576777v1    | 1901.63    |
+
+[All-blast-Streptomyces](https://drive.google.com/file/d/11DDh0vuwveYCTOhVIzrXyw4KHQyBXGd1/view?usp=share_link)
+
+# Mycoplasma
+
+| ID_Taxonomy | Genero         | Especie                      | Subespecie  | Sepa        | Genbank_seq | Assemby ID |
+| ----------- | -------------- | ---------------------------- | ----------- | ----------- | ----------- | ---------- |
+| 347257      | Mycoplasmopsis | Mycoplasmopsis agalactiae    |             | PG2         | CU179680.1  | ASM6360v1  |
+| 262722      | Mesomycoplasma | Mesomycoplasma hyopneumoniae |             | 7448        | AE017244.1  | ASM822v1   |
+| 272632      | Mycoplasma     | Mycoplasma mycoides          | mycoides SC | PG1         | BX293980.2  | ASM1144v1  |
+| 243273      | Mycoplasmoides | Mycoplasmoides genitalium    |             | G37         | L43967.2    | ASM2732v1  |
+| 273119      | Ureaplasma     | Ureaplasma parvum            | serovar 3   | ATCC 700970 | AF222894.1  | ASM662v1   |
+| 272634      | Mycoplasmoides | Mycoplasmoides pneumoniae    |             | M129        | U00089.2    | ASM2734v1  |
+| 1403316     | Mycoplasma     | Mycoplasma parvum            |             | Indiana     | CP006771.1  | ASM47741v1 |
+
+[All-blast-Mycoplasma](https://drive.google.com/file/d/1c4R7YQcdQDY12P9BK7d6I3D1oHBG7NSo/view?usp=share_link)
+
+
 ---
 # Equipo
 
